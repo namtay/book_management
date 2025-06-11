@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vJOYiH32n4Q=",
+  "dgSpecHash": "02k2F5RMt0g=",
   "success": true,
   "projectFilePath": "C:\\Users\\ewoen\\Desktop\\Practical\\Csharp projects\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ewoen\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
     "C:\\Users\\ewoen\\.nuget\\packages\\fastendpoints\\6.1.0\\fastendpoints.6.1.0.nupkg.sha512",
     "C:\\Users\\ewoen\\.nuget\\packages\\fastendpoints.attributes\\6.1.0\\fastendpoints.attributes.6.1.0.nupkg.sha512",
     "C:\\Users\\ewoen\\.nuget\\packages\\fastendpoints.messaging.core\\6.1.0\\fastendpoints.messaging.core.6.1.0.nupkg.sha512",
@@ -15,7 +16,11 @@
     "C:\\Users\\ewoen\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\ewoen\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\ewoen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "C:\\Users\\ewoen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+    "C:\\Users\\ewoen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "C:\\Users\\ewoen\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.16\\microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\ewoen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.16\\microsoft.windowsdesktop.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\ewoen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.16\\microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\ewoen\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.16\\microsoft.netcore.app.host.win-x64.8.0.16.nupkg.sha512"
   ],
   "logs": []
 }
