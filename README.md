@@ -64,3 +64,8 @@ git pull origin main
 #### Merge main into feature branch
 git checkout feature/your-branch-name
 git merge main
+
+
+### adding dotnet packages to Books module
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
