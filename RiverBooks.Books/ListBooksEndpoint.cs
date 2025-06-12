@@ -5,7 +5,7 @@ namespace RiverBooks.Books;
 
 internal class ListBooksEndpoint(IBookService bookService) : EndpointWithoutRequest<ListBooksResponse>
 {
-
+    //endpoints for books using fastendpoints library
     private readonly IBookService _bookService = bookService;
 
     public override void Configure()
@@ -32,11 +32,11 @@ internal class ListBooksEndpoint(IBookService bookService) : EndpointWithoutRequ
 
     public override async Task HandleAsync(CancellationToken cancellationToken = default)
     {
-        var books = _bookService.ListBooks();
+        var books = _bookService.ListBooksAsync();
 
-        await SendAsync(new ListBooksResponse
+        await SendAsync(new ListBooksResponse()
         {
-            Books = books
+            Books = await books
         }, cancellation: cancellationToken);
     }
 
