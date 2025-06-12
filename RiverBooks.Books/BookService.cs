@@ -11,6 +11,31 @@ internal class BookService : IBookService
     {
         _bookRepository = bookRepository;
     }
+
+    public async Task CreateBookAsync(BookDto newBook)
+    {
+        var book = new Book(newBook.Id, newBook.Title, newBook.Author, newBook.Price);
+        await _bookRepository.AddAsync(book);
+        await _bookRepository.SaveChangesAsync();
+    }
+
+    public async Task DeleteBookAsync(Guid id)
+    {
+        var bookToDelete = await _bookRepository.GetByIdAsync(id);
+        if (bookToDelete is not null)
+        {
+            await _bookRepository.DeleteAsync(bookToDelete);
+            await _bookRepository.SaveChangesAsync();
+        }
+    }
+
+    public async Task<BookDto> GetBookByIdAsync(Guid id)
+    {
+        var book = await _bookRepository.GetByIdAsync(id);
+
+        return new BookDto(book!.Id, book.Title, book.Author, book.Price);
+    }
+
     public async Task<List<BookDto>> ListBooksAsync()
     {
         // return [
@@ -26,5 +51,12 @@ internal class BookService : IBookService
             .ToList();
 
         return books;
+    }
+
+    public async Task UpdateBookPriceAsync(Guid bookId, decimal newPrice)
+    {
+        var book = await _bookRepository.GetByIdAsync(bookId);
+        book!.UpdatePrice(newPrice);
+        await _bookRepository.SaveChangesAsync();
     }
 }
