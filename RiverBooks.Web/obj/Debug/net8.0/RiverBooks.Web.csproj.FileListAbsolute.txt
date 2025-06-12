@@ -36,3 +36,4 @@ C:\Users\ewoen\Desktop\Practical\Csharp projects\book_management\RiverBooks.Web\
 C:\Users\ewoen\Desktop\Practical\Csharp projects\book_management\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.pdb
 C:\Users\ewoen\Desktop\Practical\Csharp projects\book_management\RiverBooks.Web\obj\Debug\net8.0\RiverBooks.Web.genruntimeconfig.cache
 C:\Users\ewoen\Desktop\Practical\Csharp projects\book_management\RiverBooks.Web\obj\Debug\net8.0\ref\RiverBooks.Web.dll
+C:\Users\ewoen\Desktop\Practical\Csharp projects\book_management\RiverBooks.Web\bin\Debug\net8.0\Ardalis.GuardClauses.dll
