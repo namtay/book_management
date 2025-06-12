@@ -69,3 +69,10 @@ git merge main
 ### adding dotnet packages to Books module
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+
+### commands for ef migrations in .Web project
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+dotnet add package Microsoft.EntityFramework.Design
+dotnet ef migrations add Initial -c BookDbContext -p ..\RiverBooks.Books\RiverBooks.Books.csproj -s .\RiverBooks.Web\RiverBooks.Web.csproj -o Data/Migrations

@@ -5,11 +5,11 @@ namespace RiverBooks.Books;
 
 internal class BookConfiguration : IEntityTypeConfiguration<Book>
 {
-    public Guid Book1Guid { get; private set; }
-    public Guid Book2Guid { get; private set; }
-    public Guid Book3Guid { get; private set; }
-    public Guid Book4Guid { get; private set; }
-    public Guid Book5Guid { get; private set; }
+    public Guid Book1Guid { get; private set; } = Guid.NewGuid();
+    public Guid Book2Guid { get; private set; } = Guid.NewGuid();
+    public Guid Book3Guid { get; private set; } = Guid.NewGuid();
+    public Guid Book4Guid { get; private set; } = Guid.NewGuid();
+    public Guid Book5Guid { get; private set; } = Guid.NewGuid();
 
     public void Configure(EntityTypeBuilder<Book> builder)
     {
