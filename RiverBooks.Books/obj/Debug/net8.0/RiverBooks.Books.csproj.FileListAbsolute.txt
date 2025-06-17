@@ -11,3 +11,16 @@ C:\Users\ewoen\Desktop\Practical\Csharp projects\book_management\RiverBooks.Book
 C:\Users\ewoen\Desktop\Practical\Csharp projects\book_management\RiverBooks.Books\obj\Debug\net8.0\refint\RiverBooks.Books.dll
 C:\Users\ewoen\Desktop\Practical\Csharp projects\book_management\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.pdb
 C:\Users\ewoen\Desktop\Practical\Csharp projects\book_management\RiverBooks.Books\obj\Debug\net8.0\ref\RiverBooks.Books.dll
+F:\Work\book_management\RiverBooks.Books\bin\Debug\net8.0\RiverBooks.Books.deps.json
+F:\Work\book_management\RiverBooks.Books\bin\Debug\net8.0\RiverBooks.Books.dll
+F:\Work\book_management\RiverBooks.Books\bin\Debug\net8.0\RiverBooks.Books.pdb
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.csproj.AssemblyReference.cache
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.GeneratedMSBuildEditorConfig.editorconfig
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.AssemblyInfoInputs.cache
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.AssemblyInfo.cs
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.csproj.CoreCompileInputs.cache
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.sourcelink.json
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.dll
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\refint\RiverBooks.Books.dll
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\RiverBooks.Books.pdb
+F:\Work\book_management\RiverBooks.Books\obj\Debug\net8.0\ref\RiverBooks.Books.dll
