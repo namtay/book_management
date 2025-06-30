@@ -12,3 +12,10 @@ GET {{RiverBooks.Web_HostAddress}}/books/{BookId}
 Accept: application/json
 
 ###
+POST {{RiverBooks.Web_HostAddress}}/books
+Accept:application/json
+
+###
+@BookId
+DELETE {{RiverBooks.Web_HostAddress}}/books/{BookId}
+Accept:application/json
