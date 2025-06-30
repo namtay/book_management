@@ -6,4 +6,9 @@
 GET {{RiverBooks.Web_HostAddress}}/books/
 Accept: application/json
 
+
+@BookId="22222222-2222-2222-2222-222222222222"
+GET {{RiverBooks.Web_HostAddress}}/books/{BookId}
+Accept: application/json
+
 ###

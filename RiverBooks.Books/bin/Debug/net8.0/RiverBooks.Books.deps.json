@@ -9,7 +9,7 @@
       "RiverBooks.Books/1.0.0": {
         "dependencies": {
           "Ardalis.GuardClauses": "5.0.0",
-          "FastEndpoints": "6.1.0",
+          "FastEndpoints": "6.2.0",
           "Microsoft.EntityFrameworkCore": "9.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
         },
@@ -60,35 +60,35 @@
           }
         }
       },
-      "FastEndpoints/6.1.0": {
+      "FastEndpoints/6.2.0": {
         "dependencies": {
-          "FastEndpoints.Attributes": "6.1.0",
-          "FastEndpoints.Messaging.Core": "6.1.0",
+          "FastEndpoints.Attributes": "6.2.0",
+          "FastEndpoints.Messaging.Core": "6.2.0",
           "FluentValidation": "12.0.0"
         },
         "runtime": {
           "lib/net8.0/FastEndpoints.dll": {
-            "assemblyVersion": "6.1.0.0",
-            "fileVersion": "6.1.0.0"
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
           }
         }
       },
-      "FastEndpoints.Attributes/6.1.0": {
+      "FastEndpoints.Attributes/6.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.6"
         },
         "runtime": {
           "lib/netstandard2.0/FastEndpoints.Attributes.dll": {
-            "assemblyVersion": "6.1.0.0",
-            "fileVersion": "6.1.0.0"
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
           }
         }
       },
-      "FastEndpoints.Messaging.Core/6.1.0": {
+      "FastEndpoints.Messaging.Core/6.2.0": {
         "runtime": {
           "lib/netstandard2.1/FastEndpoints.Messaging.Core.dll": {
-            "assemblyVersion": "6.1.0.0",
-            "fileVersion": "6.1.0.0"
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
           }
         }
       },
@@ -694,26 +694,26 @@
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
     },
-    "FastEndpoints/6.1.0": {
+    "FastEndpoints/6.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-20nY7VqvSKI6/8m1q1zskd5eWbv8BDwdt8klseCA1UdkmXOZrC/oUhrXQknjEW5enp6uGVH9iy9yvfEJdh1/Aw==",
-      "path": "fastendpoints/6.1.0",
-      "hashPath": "fastendpoints.6.1.0.nupkg.sha512"
+      "sha512": "sha512-KhWPR4sGhuj6/qBksmAIR60zQtVDYMR/HWSKqtZhDUN/gnhJpq9/9nCpKw7Cssq8rbw68AmVBFzLKWsfAe4dZQ==",
+      "path": "fastendpoints/6.2.0",
+      "hashPath": "fastendpoints.6.2.0.nupkg.sha512"
     },
-    "FastEndpoints.Attributes/6.1.0": {
+    "FastEndpoints.Attributes/6.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZsLRP+AtnoZKzcVG0/YE0FkjEA31tMxeWCqdQbM6fhLmIiH/SYLO6QUPEJsrEUyVsYeIG0sj4WiGgL8LqzTfiA==",
-      "path": "fastendpoints.attributes/6.1.0",
-      "hashPath": "fastendpoints.attributes.6.1.0.nupkg.sha512"
+      "sha512": "sha512-Z2tWmd7tA8cVuHl6WsHZVIhdI2Dy++SddEgswoefpoZjOFMtkORKIOYpGec/MyaMqQpCRm/zgWfXjFvZrm/Oag==",
+      "path": "fastendpoints.attributes/6.2.0",
+      "hashPath": "fastendpoints.attributes.6.2.0.nupkg.sha512"
     },
-    "FastEndpoints.Messaging.Core/6.1.0": {
+    "FastEndpoints.Messaging.Core/6.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BpgNiV5kuPJpGT+YV1n+Qub1WRd0Q+wRbf+DkTcx6F2aH7lMO350d18odKIsJeC63xlu8JT2JF4GMXKwxn8D2g==",
-      "path": "fastendpoints.messaging.core/6.1.0",
-      "hashPath": "fastendpoints.messaging.core.6.1.0.nupkg.sha512"
+      "sha512": "sha512-ycdbVd1IedyVFUpthcVa6NEJ4J1/JjEFHdfVEsBtO4Qts5IBQuqcirbyx7GoogCwqrgQapru5sZ/9Dns/cLPkA==",
+      "path": "fastendpoints.messaging.core/6.2.0",
+      "hashPath": "fastendpoints.messaging.core.6.2.0.nupkg.sha512"
     },
     "FluentValidation/12.0.0": {
       "type": "package",

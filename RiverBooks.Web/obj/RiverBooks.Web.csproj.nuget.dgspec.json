@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Work\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj": {}
+    "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj": {}
   },
   "projects": {
-    "F:\\Work\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj": {
+    "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Work\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj",
+        "projectUniqueName": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj",
         "projectName": "RiverBooks.Books",
-        "projectPath": "F:\\Work\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj",
+        "projectPath": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj",
         "packagesPath": "C:\\Users\\CYA\\.nuget\\packages\\",
-        "outputPath": "F:\\Work\\book_management\\RiverBooks.Books\\obj\\",
+        "outputPath": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -47,8 +47,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Ardalis.GuardClauses": {
               "target": "Package",
@@ -56,7 +56,7 @@
             },
             "FastEndpoints": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[6.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -90,14 +90,14 @@
         }
       }
     },
-    "F:\\Work\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj": {
+    "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Work\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj",
+        "projectUniqueName": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj",
         "projectName": "RiverBooks.Web",
-        "projectPath": "F:\\Work\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj",
+        "projectPath": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj",
         "packagesPath": "C:\\Users\\CYA\\.nuget\\packages\\",
-        "outputPath": "F:\\Work\\book_management\\RiverBooks.Web\\obj\\",
+        "outputPath": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,18 +108,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "F:\\Work\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj": {
-                "projectPath": "F:\\Work\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj"
+              "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj": {
+                "projectPath": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj"
               }
             }
           }
@@ -137,16 +137,20 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "FastEndpoints": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[6.2.0, )"
+            },
+            "FastEndpoints.Swagger": {
+              "target": "Package",
+              "version": "[6.2.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[8.0.15, )"
+              "version": "[9.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -156,7 +160,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[9.0.1, )"
             }
           },
           "imports": [

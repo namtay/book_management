@@ -1,4 +1,5 @@
 using FastEndpoints;
+using FastEndpoints.Swagger;
 using RiverBooks.Books;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddFastEndpoints();
+builder.Services.AddFastEndpoints().SwaggerDocument();
 
 //add module services
 builder.Services.AddBookServices(builder.Configuration);
@@ -17,12 +18,14 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
+    //app.UseSwagger(opts => {
+    //    opts.OpenApiVersion = Microsoft.OpenApi.OpenApiSpecVersion.OpenApi2_0;
+    //});
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
-app.UseFastEndpoints();
+app.UseFastEndpoints().UseSwaggerGen(); //define a swagger document;
 
 // var summaries = new[]
 // {
