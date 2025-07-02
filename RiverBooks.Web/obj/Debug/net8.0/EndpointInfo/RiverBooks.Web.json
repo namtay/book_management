@@ -10,12 +10,12 @@
         "tags": [
           "RiverBooks.Web"
         ],
-        "operationId": "RiverBooksBooksGetBookByIdEndpoint",
+        "operationId": "RiverBooksBooksGetById",
         "requestBody": {
           "content": {
             "*/*": {
               "schema": {
-                "$ref": "#/components/schemas/GetBookByIdRequest"
+                "$ref": "#/components/schemas/GetByRequest"
               }
             }
           },
@@ -47,7 +47,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ListBooksResponse"
+                  "$ref": "#/components/schemas/ListResponse"
                 }
               }
             }
@@ -80,7 +80,7 @@
         },
         "additionalProperties": false
       },
-      "GetBookByIdRequest": {
+      "GetByRequest": {
         "type": "object",
         "properties": {
           "id": {
@@ -90,7 +90,7 @@
         },
         "additionalProperties": false
       },
-      "ListBooksResponse": {
+      "ListResponse": {
         "type": "object",
         "properties": {
           "books": {

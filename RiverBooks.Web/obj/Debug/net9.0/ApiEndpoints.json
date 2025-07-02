@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "RiverBooks.Books.ListBooksResponse",
+        "Type": "RiverBooks.Books.ListResponse",
         "MediaTypes": [
           "application/json"
         ],
@@ -27,8 +27,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "GetBookByIdRequest",
-        "Type": "RiverBooks.Books.GetBookByIdRequest",
+        "Name": "GetByRequest",
+        "Type": "RiverBooks.Books.GetByRequest",
         "IsRequired": true
       }
     ],
@@ -41,6 +41,6 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "RiverBooksBooksGetBookByIdEndpoint"
+    "EndpointName": "RiverBooksBooksGetById"
   }
 ]
