@@ -1,0 +1,40 @@
+2025-07-04T18:15:56.4500184+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.6.3+5354e77dc47f233239dfddf6d2be620b9e14b171
+2025-07-04T18:15:56.4573957+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-07-04T18:15:56.4580858+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-07-04T18:15:56.4580890+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 18:15:56.436
+2025-07-04T18:15:56.4590091+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 19024
+2025-07-04T18:15:56.4590237+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.6
+2025-07-04T18:15:56.4590299+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.6\System.Private.CoreLib.dll
+2025-07-04T18:15:56.4590356+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-07-04T18:15:56.4590403+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: F:\Work\book_management_swagger_fix\book_management\RiverBooks.Books.Tests\bin\Debug\net9.0\RiverBooks.Books.Tests.dll
+2025-07-04T18:15:56.4591777+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory F:\Work\book_management_swagger_fix\book_management\RiverBooks.Books.Tests\bin\Debug\net9.0\Log --results-directory F:\Work\book_management_swagger_fix\book_management\TestResults --client-port 63710'
+2025-07-04T18:15:56.4600070+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-07-04T18:15:56.4665638+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-07-04T18:15:56.4740288+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-07-04T18:15:56.5799107+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: '30ea7c6e-dd24-4152-a360-1387158cd41d' Version: '2.0.3' DisplayName: 'xUnit.net v3 Microsoft.Testing.Platform test framework' Description: 'xUnit.net v3 Microsoft.Testing.Platform test framework'
+2025-07-04T18:15:56.5830371+00:00 xUnit.net INFORMATION xUnit.net v3 In-Process Runner v2.0.3+216a74a292 (64-bit .NET 9.0.6)
+2025-07-04T18:15:56.6065664+00:00 xUnit.net INFORMATION   Discovering: RiverBooks.Books.Tests
+2025-07-04T18:15:56.6316961+00:00 xUnit.net INFORMATION   Discovered:  RiverBooks.Books.Tests
+2025-07-04T18:15:56.6418819+00:00 xUnit.net INFORMATION   Starting:    RiverBooks.Books.Tests
+2025-07-04T18:15:57.5228401+00:00 xUnit.net ERROR     RiverBooks.Books.Tests.Endpoints.BookGetById.ReturnsExpectedBookGivenIdAsync(validId: "7f3db16c-5d8f-4f3a-8839-b1d8e9e6b0be", expectedTitle: "I walked around") [FAIL]
+2025-07-04T18:15:57.5230877+00:00 xUnit.net INFORMATION       System.NullReferenceException : Object reference not set to an instance of an object.
+2025-07-04T18:15:57.5233221+00:00 xUnit.net INFORMATION       Stack Trace:
+2025-07-04T18:15:57.5235420+00:00 xUnit.net INFORMATION         F:\Work\book_management_swagger_fix\book_management\RiverBooks.Books\BookService.cs(36,0): at RiverBooks.Books.BookService.GetBookByIdAsync(Guid id)
+2025-07-04T18:15:57.5235528+00:00 xUnit.net INFORMATION         F:\Work\book_management_swagger_fix\book_management\RiverBooks.Books\BookEndpoints\GetById.cs(24,0): at RiverBooks.Books.GetById.HandleAsync(GetByIdRequest req, CancellationToken ct)
+2025-07-04T18:15:57.5235553+00:00 xUnit.net INFORMATION            at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+2025-07-04T18:15:57.5235574+00:00 xUnit.net INFORMATION            at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+2025-07-04T18:15:57.5235593+00:00 xUnit.net INFORMATION            at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+2025-07-04T18:15:57.5235611+00:00 xUnit.net INFORMATION            at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+2025-07-04T18:15:57.5235628+00:00 xUnit.net INFORMATION            at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+2025-07-04T18:15:57.5235652+00:00 xUnit.net INFORMATION            at Microsoft.AspNetCore.TestHost.HttpContextBuilder.<>c__DisplayClass23_0.<<SendAsync>g__RunRequestAsync|0>d.MoveNext()
+2025-07-04T18:15:57.5235656+00:00 xUnit.net INFORMATION         --- End of stack trace from previous location ---
+2025-07-04T18:15:57.5235680+00:00 xUnit.net INFORMATION            at Microsoft.AspNetCore.TestHost.ClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+2025-07-04T18:15:57.5235707+00:00 xUnit.net INFORMATION            at Microsoft.AspNetCore.Mvc.Testing.Handlers.CookieContainerHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+2025-07-04T18:15:57.5235821+00:00 xUnit.net INFORMATION            at Microsoft.AspNetCore.Mvc.Testing.Handlers.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+2025-07-04T18:15:57.5235877+00:00 xUnit.net INFORMATION            at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+2025-07-04T18:15:57.5235926+00:00 xUnit.net INFORMATION            at FastEndpoints.HttpClientExtensions.SENDAsync[TRequest,TResponse](HttpClient client, HttpMethod method, String requestUri, TRequest request, Boolean sendAsFormData, Boolean populateHeaders)
+2025-07-04T18:15:57.5235969+00:00 xUnit.net INFORMATION         F:\Work\book_management_swagger_fix\book_management\RiverBooks.Books.Tests\Endpoints\BookGetById.cs(18,0): at RiverBooks.Books.Tests.Endpoints.BookGetById.ReturnsExpectedBookGivenIdAsync(String validId, String expectedTitle)
+2025-07-04T18:15:57.5235974+00:00 xUnit.net INFORMATION         --- End of stack trace from previous location ---
+2025-07-04T18:15:57.5311147+00:00 xUnit.net INFORMATION   Finished:    RiverBooks.Books.Tests
+2025-07-04T18:15:57.5331221+00:00 xUnit.net INFORMATION === TEST EXECUTION SUMMARY ===
+2025-07-04T18:15:57.5360813+00:00 xUnit.net INFORMATION    RiverBooks.Books.Tests  Total: 2, Errors: 0, Failed: 1, Skipped: 0, Not Run: 0, Time: 0.891s
