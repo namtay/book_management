@@ -59,27 +59,35 @@
           "dependencies": {
             "FastEndpoints.Testing": {
               "target": "Package",
-              "version": "[6.20.0, )"
+              "version": "[6.2.0, )"
             },
             "FluentAssertions": {
               "target": "Package",
               "version": "[8.4.0, )"
             },
-            "Microsoft.NET.Test.Sdk": {
+            "Microsoft.NET.Test.SDK": {
               "target": "Package",
               "version": "[17.14.1, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[6.0.4, )"
             },
             "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[3.1.1, )"
+            },
+            "xunit.v3.core": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "xunit.v3.runner.utility": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             }
           },
           "imports": [

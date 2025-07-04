@@ -1,30 +1,36 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+        <GenerateRuntimeConfigDevFile>true</GenerateRuntimeConfigDevFile>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
 
-    <IsPackable>false</IsPackable>
-    <IsTestProject>true</IsTestProject>
-  </PropertyGroup>
+    <PropertyGroup>
+        <UseCommonOutputDirectory>false</UseCommonOutputDirectory>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="coverlet.collector" Version="6.0.0" />
-    <PackageReference Include="FastEndpoints.Testing" Version="6.20.0" />
-    <PackageReference Include="FluentAssertions" Version="8.4.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
-    <PackageReference Include="xunit" Version="2.5.3" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.4">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="FastEndpoints.Testing" Version="6.2.0"/>
+        <PackageReference Include="FluentAssertions" Version="8.4.0"/>
+        <PackageReference Include="Microsoft.NET.Test.SDK" Version="17.14.1"/>
+        <PackageReference Include="xunit.v3.core" Version="2.0.3"/>
+        <PackageReference Include="xunit.v3.runner.utility" Version="2.0.3"/>
+        <PackageReference Include="xunit.runner.visualstudio" Version="3.1.1" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive"/>
 
-  <ItemGroup>
-    <ProjectReference Include="..\RiverBooks.Books\RiverBooks.Books.csproj" />
-    <ProjectReference Include="..\RiverBooks.Web\RiverBooks.Web.csproj" />
-  </ItemGroup>
+    </ItemGroup>
 
-  <ItemGroup>
-    <Using Include="Xunit" />
-  </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\RiverBooks.Books\RiverBooks.Books.csproj"/>
+        <ProjectReference Include="..\RiverBooks.Web\RiverBooks.Web.csproj"/>
+    </ItemGroup>
 
 </Project>

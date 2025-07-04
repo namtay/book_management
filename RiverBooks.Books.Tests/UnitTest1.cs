@@ -1,3 +1,5 @@
+using Xunit;
+
 namespace RiverBooks.Books.Tests
 {
     public class UnitTest1

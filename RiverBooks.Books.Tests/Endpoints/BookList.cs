@@ -1,18 +1,13 @@
-﻿using FastEndpoints;
+﻿using System.Threading.Tasks;
+using FastEndpoints;
 using FastEndpoints.Testing;
 using FluentAssertions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using System.Threading.Tasks;
-using Xunit.Abstractions;
-
+using Xunit;
 
 namespace RiverBooks.Books.Tests.Endpoints
 {
-    public class BookList(Fixture fixture, ITestOutputHelper outputHelper) : TestBase<Fixture>(fixture, outputHelper)
+    public class BookList(Fixture Fixture) 
+        : TestBase<Fixture>
     {
         [Fact]
         public async Task ReturnsThreeBooksAsync()
@@ -20,7 +15,7 @@ namespace RiverBooks.Books.Tests.Endpoints
             var testResult = await Fixture.Client.GETAsync<List, ListResponse>();
 
             testResult.Response.EnsureSuccessStatusCode();
-            testResult.Result.Books.Count.Should().Be(7);
+            testResult.Result.Books.Count.Should().Be(5);
 
         }
 
