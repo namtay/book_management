@@ -371,3 +371,4 @@ F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\RiverBooks.Web.pdb
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\RiverBooks.Web.genruntimeconfig.cache
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\ref\RiverBooks.Web.dll
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\bin\Debug\net9.0\appsettings.Testing.json

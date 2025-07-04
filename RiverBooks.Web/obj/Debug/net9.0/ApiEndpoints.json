@@ -3,6 +3,31 @@
     "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
     "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
     "RelativePath": "books",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CreateRequest",
+        "Type": "RiverBooks.Books.CreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RiverBooks.Books.BookDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RiverBooksBooksCreate"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "books",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
@@ -16,7 +41,30 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "RiverBooksBooksListBooksEndpoint"
+    "EndpointName": "RiverBooksBooksList"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "books/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DeleteRequest",
+        "Type": "RiverBooks.Books.DeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RiverBooksBooksDelete"
   },
   {
     "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
@@ -27,8 +75,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "GetByRequest",
-        "Type": "RiverBooks.Books.GetByRequest",
+        "Name": "GetByIdRequest",
+        "Type": "RiverBooks.Books.GetByIdRequest",
         "IsRequired": true
       }
     ],
@@ -42,5 +90,30 @@
       }
     ],
     "EndpointName": "RiverBooksBooksGetById"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "books/{Id}/priceHistory",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdatePriceRequest",
+        "Type": "RiverBooks.Books.UpdatePriceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RiverBooks.Books.BookDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RiverBooksBooksUpdatePrice"
   }
 ]

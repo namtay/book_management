@@ -5,7 +5,81 @@
     "version": "1.0"
   },
   "paths": {
+    "/books": {
+      "post": {
+        "tags": [
+          "RiverBooks.Web"
+        ],
+        "operationId": "RiverBooksBooksCreate",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BookDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "RiverBooks.Web"
+        ],
+        "operationId": "RiverBooksBooksList",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ListResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/books/{Id}": {
+      "delete": {
+        "tags": [
+          "RiverBooks.Web"
+        ],
+        "operationId": "RiverBooksBooksDelete",
+        "requestBody": {
+          "content": {
+            "*/*": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteRequest"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        }
+      },
       "get": {
         "tags": [
           "RiverBooks.Web"
@@ -15,12 +89,12 @@
           "content": {
             "*/*": {
               "schema": {
-                "$ref": "#/components/schemas/GetByRequest"
+                "$ref": "#/components/schemas/GetByIdRequest"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/GetByRequest"
+                "$ref": "#/components/schemas/GetByIdRequest"
               }
             }
           },
@@ -40,19 +114,29 @@
         }
       }
     },
-    "/books": {
-      "get": {
+    "/books/{Id}/priceHistory": {
+      "post": {
         "tags": [
           "RiverBooks.Web"
         ],
-        "operationId": "RiverBooksBooksListBooksEndpoint",
+        "operationId": "RiverBooksBooksUpdatePrice",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePriceRequest"
+              }
+            }
+          },
+          "required": true
+        },
         "responses": {
           "200": {
             "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ListResponse"
+                  "$ref": "#/components/schemas/BookDto"
                 }
               }
             }
@@ -85,7 +169,40 @@
         },
         "additionalProperties": false
       },
-      "GetByRequest": {
+      "CreateRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "author": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetByIdRequest": {
         "type": "object",
         "properties": {
           "id": {
@@ -104,6 +221,20 @@
               "$ref": "#/components/schemas/BookDto"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePriceRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "newPrice": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
