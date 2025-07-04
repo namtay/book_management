@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\RiverBooks.Books",
+    "\\RiverBooks.Books\\Data",
     "\\RiverBooks.Web"
   ],
+  "SelectedNode": "\\RiverBooks.Books\\Data\\BookDbContext.cs",
   "PreviewInSolutionExplorer": false
 }

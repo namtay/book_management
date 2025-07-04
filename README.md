@@ -75,6 +75,7 @@ git pull origin main
 git checkout -b feature/your-branch-name
 git push -u origin feature/new-branch-name
 git merge main
+git remote -v
 ```
 
 #### 📦Adding dotnet packages to Books module
