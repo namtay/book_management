@@ -3,62 +3,28 @@
   "WorkspaceRootPath": "F:\\Work\\book_management_swagger_fix\\book_management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books\\bookendpoints\\updateprice.updatepricerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\bookendpoints\\updateprice.updatepricerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books\\bookendpoints\\updateprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\bookendpoints\\updateprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\usersmoduleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\usersmoduleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books.tests\\endpoints\\bookgetbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|solutionrelative:riverbooks.books.tests\\endpoints\\bookgetbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.web\\riverbooks.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\riverbooks.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.web\\riverbooks.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\riverbooks.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books.tests\\riverbooks.books.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|solutionrelative:riverbooks.books.tests\\riverbooks.books.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books.tests\\endpoints\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|solutionrelative:riverbooks.books.tests\\endpoints\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\riverbooks.users.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\riverbooks.users.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books\\riverbooks.books.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\riverbooks.books.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books.tests\\endpoints\\fixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|solutionrelative:riverbooks.books.tests\\endpoints\\fixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.web\\riverbooks.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\riverbooks.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books.tests\\riverbooks.books.tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{C45BE96E-3C26-4AAD-90EF-E35EDB910326}|RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj|solutionrelative:riverbooks.books.tests\\riverbooks.books.tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anlovesey\\.nuget\\packages\\xunit.v3.core\\2.0.3\\buildTransitive\\xunit.v3.core.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.web\\appsettings.testing.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\appsettings.testing.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.books\\bookserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E9173C5-1315-47DA-80DE-AF029ED0F74F}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\bookserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,73 +34,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Fixture.cs",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\Endpoints\\Fixture.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books.Tests\\Endpoints\\Fixture.cs",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\Endpoints\\Fixture.cs",
-              "RelativeToolTip": "RiverBooks.Books.Tests\\Endpoints\\Fixture.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:38:10.214Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Book.cs",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\Book.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books\\Book.cs",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\Book.cs",
-              "RelativeToolTip": "RiverBooks.Books\\Book.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAxwAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T12:14:38.881Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdatePrice.UpdatePriceRequest.cs",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\BookEndpoints\\UpdatePrice.UpdatePriceRequest.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books\\BookEndpoints\\UpdatePrice.UpdatePriceRequest.cs",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\BookEndpoints\\UpdatePrice.UpdatePriceRequest.cs",
-              "RelativeToolTip": "RiverBooks.Books\\BookEndpoints\\UpdatePrice.UpdatePriceRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\Program.cs",
+              "RelativeDocumentMoniker": "RiverBooks.Web\\Program.cs",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\Program.cs",
+              "RelativeToolTip": "RiverBooks.Web\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAE8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:21:56.514Z",
+              "WhenOpened": "2025-07-07T19:52:44.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdatePrice.cs",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\BookEndpoints\\UpdatePrice.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books\\BookEndpoints\\UpdatePrice.cs",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\BookEndpoints\\UpdatePrice.cs",
-              "RelativeToolTip": "RiverBooks.Books\\BookEndpoints\\UpdatePrice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UsersModuleExtensions.cs",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UsersModuleExtensions.cs",
+              "RelativeDocumentMoniker": "RiverBooks.Users\\UsersModuleExtensions.cs",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UsersModuleExtensions.cs",
+              "RelativeToolTip": "RiverBooks.Users\\UsersModuleExtensions.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:21:49.36Z",
+              "WhenOpened": "2025-07-07T19:48:14.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BookGetById.cs",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\Endpoints\\BookGetById.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books.Tests\\Endpoints\\BookGetById.cs",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\Endpoints\\BookGetById.cs",
-              "RelativeToolTip": "RiverBooks.Books.Tests\\Endpoints\\BookGetById.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwAwAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T17:36:07.989Z",
+              "Title": "RiverBooks.Users",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\RiverBooks.Users.csproj",
+              "RelativeDocumentMoniker": "RiverBooks.Users\\RiverBooks.Users.csproj",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\RiverBooks.Users.csproj",
+              "RelativeToolTip": "RiverBooks.Users\\RiverBooks.Users.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-07T19:06:42.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RiverBooks.Books",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj",
+              "RelativeDocumentMoniker": "RiverBooks.Books\\RiverBooks.Books.csproj",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj",
+              "RelativeToolTip": "RiverBooks.Books\\RiverBooks.Books.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-07T19:42:59.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RiverBooks.Web",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj",
+              "RelativeDocumentMoniker": "RiverBooks.Web\\RiverBooks.Web.csproj",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj",
+              "RelativeToolTip": "RiverBooks.Web\\RiverBooks.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-07T19:42:23.078Z",
               "EditorCaption": ""
             },
             {
@@ -151,125 +115,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RiverBooks.Web.csproj",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj",
-              "RelativeDocumentMoniker": "RiverBooks.Web\\RiverBooks.Web.csproj",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.csproj",
-              "RelativeToolTip": "RiverBooks.Web\\RiverBooks.Web.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-04T15:46:27.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RiverBooks.Books.Tests.csproj",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj",
-              "RelativeDocumentMoniker": "RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj",
-              "RelativeToolTip": "RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-02T18:36:36.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookList.cs",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\Endpoints\\BookList.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books.Tests\\Endpoints\\BookList.cs",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\Endpoints\\BookList.cs",
-              "RelativeToolTip": "RiverBooks.Books.Tests\\Endpoints\\BookList.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA8wBgAAAAAAAAAAAAAAA==",
+              "Title": "BookServiceExtensions.cs",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\BookServiceExtensions.cs",
+              "RelativeDocumentMoniker": "RiverBooks.Books\\BookServiceExtensions.cs",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\BookServiceExtensions.cs",
+              "RelativeToolTip": "RiverBooks.Books\\BookServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T13:47:35.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RiverBooks.Web.http",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.http",
-              "RelativeDocumentMoniker": "RiverBooks.Web\\RiverBooks.Web.http",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.http",
-              "RelativeToolTip": "RiverBooks.Web\\RiverBooks.Web.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-07-03T14:43:56.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RiverBooks.Books.Tests",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj",
-              "RelativeDocumentMoniker": "RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj",
-              "RelativeToolTip": "RiverBooks.Books.Tests\\RiverBooks.Books.Tests.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-04T15:54:11.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RiverBooks.Books.csproj",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj",
-              "RelativeDocumentMoniker": "RiverBooks.Books\\RiverBooks.Books.csproj",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Books\\RiverBooks.Books.csproj",
-              "RelativeToolTip": "RiverBooks.Books\\RiverBooks.Books.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-04T16:06:57.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "xunit.v3.core.targets",
-              "DocumentMoniker": "C:\\Users\\anlovesey\\.nuget\\packages\\xunit.v3.core\\2.0.3\\buildTransitive\\xunit.v3.core.targets",
-              "ToolTip": "C:\\Users\\anlovesey\\.nuget\\packages\\xunit.v3.core\\2.0.3\\buildTransitive\\xunit.v3.core.targets",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-04T15:30:33.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "RiverBooks.Web\\appsettings.Development.json",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\appsettings.Development.json",
-              "RelativeToolTip": "RiverBooks.Web\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-03T14:35:43.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAEwHAAAAAAAAAAAQwGAHAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-02T18:47:09.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.Testing.json",
-              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\appsettings.Testing.json",
-              "RelativeDocumentMoniker": "RiverBooks.Web\\appsettings.Testing.json",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\appsettings.Testing.json",
-              "RelativeToolTip": "RiverBooks.Web\\appsettings.Testing.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-03T14:37:25.851Z",
+              "WhenOpened": "2025-07-07T19:40:14.371Z",
               "EditorCaption": ""
             }
           ]

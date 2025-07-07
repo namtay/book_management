@@ -1,0 +1,13 @@
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\bin\Debug\net9.0\RiverBooks.Users.deps.json
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\bin\Debug\net9.0\RiverBooks.Users.dll
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\bin\Debug\net9.0\RiverBooks.Users.pdb
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\RiverBooks.Users.csproj.AssemblyReference.cache
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\RiverBooks.Users.GeneratedMSBuildEditorConfig.editorconfig
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\RiverBooks.Users.AssemblyInfoInputs.cache
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\RiverBooks.Users.AssemblyInfo.cs
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\RiverBooks.Users.csproj.CoreCompileInputs.cache
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\RiverBooks.Users.sourcelink.json
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\RiverBooks.Users.dll
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\refint\RiverBooks.Users.dll
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\RiverBooks.Users.pdb
+F:\Work\book_management_swagger_fix\book_management\RiverBooks.Users\obj\Debug\net9.0\ref\RiverBooks.Users.dll
