@@ -22,8 +22,10 @@ Accept:application/json
 DELETE {{RiverBooks.Web_HostAddress}}/books/{BookId}
 Accept:application/json
 
+###
 
-@BookId
+@BookId=
+
 ###
 
 
@@ -31,4 +33,29 @@ POST {{RiverBooks.Web_HostAddress}}/books/{BookId}/priceHistory
 Accept:application/json
 Content-type:application/json
 
+###
 
+POST {{RiverBooks.Web_HostAddress}}/users
+Accept:application/json
+Content-type:application/json
+
+{
+  email:"chris@gmail.com",
+  password:"Chris@111"
+}
+
+
+###
+
+POST {{RiverBooks.Web_HostAddress}}/users/login
+Accept:application/json
+Content-type:application/json
+
+{
+  email:"Fafs@gmail.com",
+  password:"Fafs@111"
+}
+
+###
+
+@token="eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NTIxNTUxMTUsIkVtYWlsQWRkcmVzcyI6ImZhZnNAZ21haWwuY29tIiwiZXhwIjoxNzUyMTU4NzE1LCJuYmYiOjE3NTIxNTUxMTV9.pnWH-2RFWaC4Mm9g7qy_8v6HGbwNxEErW-CjwMBfmbE"

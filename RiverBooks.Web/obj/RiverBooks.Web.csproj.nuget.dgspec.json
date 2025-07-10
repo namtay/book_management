@@ -140,9 +140,25 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
             "FastEndpoints": {
               "target": "Package",
               "version": "[6.2.0, )"
+            },
+            "FastEndpoints.Security": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -241,9 +257,17 @@
               "target": "Package",
               "version": "[6.2.0, )"
             },
+            "FastEndpoints.Security": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
             "FastEndpoints.Swagger": {
               "target": "Package",
               "version": "[6.2.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

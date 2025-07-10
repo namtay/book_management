@@ -18,7 +18,11 @@ namespace RiverBooks.Users
     public static class UsersModuleExtensions
     {
         public static IServiceCollection AddUserModuleServices(
-            this IServiceCollection services, ConfigurationManager config, Serilog.ILogger logger)
+            this IServiceCollection services, 
+            ConfigurationManager config, 
+            Serilog.ILogger logger, 
+            List<System.Reflection.Assembly> mediatRAssemblies)
+
         {
 
             string? connectionString = config.GetConnectionString("UsersConnectionString");
@@ -27,6 +31,9 @@ namespace RiverBooks.Users
 
             services.AddIdentityCore<ApplicationUser>()
                 .AddEntityFrameworkStores<UsersDbContext>();
+
+            //if using mediatR in this module, add any assemblies that contain handlers to the extensions.
+            mediatRAssemblies.Add(typeof(UsersModuleExtensions).Assembly);
 
             logger.Information("{Module} module services registered", "Users");
 

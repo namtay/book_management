@@ -4,12 +4,15 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    
+	<UserSecretsId>riverbooks-web-a54beb96-df58-4550-926b-6c9d2479f847</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FastEndpoints" Version="6.2.0" />
+	<PackageReference Include="FastEndpoints.Security" Version="6.2.0" />
     <PackageReference Include="FastEndpoints.Swagger" Version="6.2.0" />
+	  
+	<PackageReference Include="MediatR" Version="13.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.6">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
