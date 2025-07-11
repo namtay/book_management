@@ -8,11 +8,11 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RiverBooks.Users
+namespace RiverBooks.Users.Data
 {
-    public class UsersDbContext:IdentityDbContext<ApplicationUser>
+    public class UsersDbContext : IdentityDbContext<ApplicationUser>
     {
-        public UsersDbContext(DbContextOptions<UsersDbContext> options): base(options)
+        public UsersDbContext(DbContextOptions<UsersDbContext> options) : base(options)
         {
 
         }

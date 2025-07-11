@@ -5,4 +5,5 @@
         Task<ApplicationUser> GetUserWithCartByEmailAsync(string email);
         Task SaveChangesAsync();
     }
+
 }

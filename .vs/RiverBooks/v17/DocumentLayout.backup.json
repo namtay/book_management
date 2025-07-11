@@ -22,17 +22,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ListCartItemsQuery.cs",
               "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs",
               "RelativeDocumentMoniker": "RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs",
-              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs*",
-              "RelativeToolTip": "RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs",
+              "RelativeToolTip": "RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T18:50:33.079Z",
               "EditorCaption": ""
@@ -47,8 +59,7 @@
               "RelativeToolTip": "RiverBooks.Users\\CartEndpoints\\ListCartItems.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T18:20:10.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T18:20:10.509Z"
             },
             {
               "$type": "Document",
@@ -60,20 +71,7 @@
               "RelativeToolTip": "RiverBooks.Users\\CartEndpoints\\AddItem.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T18:11:03.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "WhenOpened": "2025-07-10T18:11:03.367Z"
             }
           ]
         }

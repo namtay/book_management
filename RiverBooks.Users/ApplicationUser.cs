@@ -47,6 +47,12 @@ namespace RiverBooks.Users
             Quantity = Guard.Against.Negative(quantity);
             UnitPrice = Guard.Against.Negative(unitPrice);
         }
+
+        public CartItem() 
+        { 
+            //EF
+
+        }
         public Guid Id { get; set; } = Guid.NewGuid();
         public Guid BookId { get; set; }
 

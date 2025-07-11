@@ -220,7 +220,6 @@ F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\RiverBooks.Web.csproj.CoreCompileInputs.cache
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\RiverBooks.Web.MvcApplicationPartsAssemblyInfo.cs
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\RiverBooks.Web.MvcApplicationPartsAssemblyInfo.cache
-F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\RiverBooks.Web.sourcelink.json
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\rjimswa.dswa.cache.json
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -238,4 +237,3 @@ F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\bin\Debug\net9.0\Ardalis.Result.dll
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\bin\Debug\net9.0\MediatR.dll
 F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\bin\Debug\net9.0\MediatR.Contracts.dll
-F:\Work\book_management_swagger_fix\book_management\RiverBooks.Web\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

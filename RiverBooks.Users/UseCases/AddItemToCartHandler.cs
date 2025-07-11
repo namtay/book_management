@@ -23,7 +23,7 @@ namespace RiverBooks.Users.UseCases
                 "description",
                 request.Quantity,
                 1.00m);
-
+            user.AddItemToCart(newCartItem);
             await _userRepository.SaveChangesAsync();
             return Result.Success();
         }

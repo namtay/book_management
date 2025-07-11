@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "F:\\Work\\book_management_swagger_fix\\book_management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\usecases\\listcartitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\usecases\\listcartitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\cartendpoints\\listcartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\cartendpoints\\listcartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\cartendpoints\\listcartitems.cartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\cartendpoints\\listcartitems.cartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\usecases\\additemtocarthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\usecases\\additemtocarthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\usecases\\listcartitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\usecases\\listcartitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\cartendpoints\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\cartendpoints\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\data\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\data\\usersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\cartendpoints\\additem.addcartitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\cartendpoints\\additem.addcartitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.web\\riverbooks.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4B75C0CD-97E2-442D-BA42-56462E294BC2}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\riverbooks.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|f:\\work\\book_management_swagger_fix\\book_management\\riverbooks.users\\usersmoduleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797D2693-02A8-4FA5-9087-2B003D6483A9}|RiverBooks.Users\\RiverBooks.Users.csproj|solutionrelative:riverbooks.users\\usersmoduleextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ListCartItemsQuery.cs",
               "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs",
               "RelativeDocumentMoniker": "RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs",
               "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs",
               "RelativeToolTip": "RiverBooks.Users\\UseCases\\ListCartItemsQuery.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T18:50:33.079Z",
+              "WhenOpened": "2025-07-11T18:32:19.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ListCartItems.cs",
               "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\CartEndpoints\\ListCartItems.cs",
               "RelativeDocumentMoniker": "RiverBooks.Users\\CartEndpoints\\ListCartItems.cs",
               "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\CartEndpoints\\ListCartItems.cs",
               "RelativeToolTip": "RiverBooks.Users\\CartEndpoints\\ListCartItems.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwB4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T18:20:10.509Z",
+              "WhenOpened": "2025-07-11T17:18:19.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListCartItems.CartResponse.cs",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\CartEndpoints\\ListCartItems.CartResponse.cs",
+              "RelativeDocumentMoniker": "RiverBooks.Users\\CartEndpoints\\ListCartItems.CartResponse.cs",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\CartEndpoints\\ListCartItems.CartResponse.cs",
+              "RelativeToolTip": "RiverBooks.Users\\CartEndpoints\\ListCartItems.CartResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T16:32:38.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "RiverBooks.Users\\ApplicationUser.cs",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\ApplicationUser.cs",
+              "RelativeToolTip": "RiverBooks.Users\\ApplicationUser.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T16:35:26.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AddItemToCartHandler.cs",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UseCases\\AddItemToCartHandler.cs",
+              "RelativeDocumentMoniker": "RiverBooks.Users\\UseCases\\AddItemToCartHandler.cs",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UseCases\\AddItemToCartHandler.cs",
+              "RelativeToolTip": "RiverBooks.Users\\UseCases\\AddItemToCartHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T16:33:00.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersDbContext.cs",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\Data\\UsersDbContext.cs",
+              "RelativeDocumentMoniker": "RiverBooks.Users\\Data\\UsersDbContext.cs",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\Data\\UsersDbContext.cs",
+              "RelativeToolTip": "RiverBooks.Users\\Data\\UsersDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T14:48:56.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddItem.AddCartItemRequest.cs",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\CartEndpoints\\AddItem.AddCartItemRequest.cs",
+              "RelativeDocumentMoniker": "RiverBooks.Users\\CartEndpoints\\AddItem.AddCartItemRequest.cs",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\CartEndpoints\\AddItem.AddCartItemRequest.cs",
+              "RelativeToolTip": "RiverBooks.Users\\CartEndpoints\\AddItem.AddCartItemRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T16:32:28.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AddItem.cs",
               "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\CartEndpoints\\AddItem.cs",
               "RelativeDocumentMoniker": "RiverBooks.Users\\CartEndpoints\\AddItem.cs",
               "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\CartEndpoints\\AddItem.cs",
               "RelativeToolTip": "RiverBooks.Users\\CartEndpoints\\AddItem.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAzwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T18:11:03.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersModuleExtensions.cs",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UsersModuleExtensions.cs",
+              "RelativeDocumentMoniker": "RiverBooks.Users\\UsersModuleExtensions.cs",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Users\\UsersModuleExtensions.cs",
+              "RelativeToolTip": "RiverBooks.Users\\UsersModuleExtensions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAxwC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T14:28:01.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RiverBooks.Web.http",
+              "DocumentMoniker": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.http",
+              "RelativeDocumentMoniker": "RiverBooks.Web\\RiverBooks.Web.http",
+              "ToolTip": "F:\\Work\\book_management_swagger_fix\\book_management\\RiverBooks.Web\\RiverBooks.Web.http",
+              "RelativeToolTip": "RiverBooks.Web\\RiverBooks.Web.http",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-11T14:21:50.746Z",
               "EditorCaption": ""
             },
             {

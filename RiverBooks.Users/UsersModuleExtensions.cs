@@ -12,6 +12,8 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Serilog;
+using RiverBooks.Users.UseCases;
+using RiverBooks.Users.Data;
 
 namespace RiverBooks.Users
 {
@@ -31,6 +33,8 @@ namespace RiverBooks.Users
 
             services.AddIdentityCore<ApplicationUser>()
                 .AddEntityFrameworkStores<UsersDbContext>();
+
+            services.AddScoped<IApplicationUserRepository, EfApplicationUserRepository>();
 
             //if using mediatR in this module, add any assemblies that contain handlers to the extensions.
             mediatRAssemblies.Add(typeof(UsersModuleExtensions).Assembly);

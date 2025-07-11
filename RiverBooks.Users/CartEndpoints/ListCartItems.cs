@@ -19,6 +19,7 @@ namespace RiverBooks.Users.CartEndpoints
         {
             Get("/cart");
             Claims("EmailAddress");
+            //indicates that email address is required from the authenticated user which can be obtained from the token.
         }
 
         public override async Task HandleAsync(CancellationToken ct)
